@@ -75,39 +75,10 @@ body{
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 
-.cards{
-    display:flex;
-    justify-content:space-around;
-    flex-wrap:wrap;
-}
-
-.banner{
-    width:250px;
-    background:#e6f2ff;
-    padding:15px;
-    margin:10px;
-    border-radius:10px;
-    text-align:center;
-}
-
 table{
     width:100%;
     border-collapse:collapse;
 }
-
-table, th, td{
-    border:1px solid #003366;
-}
-
-th{
-    background:#0059b3;
-    color:white;
-}
-
-th, td{
-    padding:10px;
-}
-
 .article{
     text-align:center;
 }
@@ -124,13 +95,3 @@ footer{
     margin-top:30px;
 }
 
-.topo{
-    position:fixed;
-    right:20px;
-    bottom:20px;
-    background:#0059b3;
-    color:white;
-    padding:12px;
-    border-radius:50%;
-    text-decoration:none;
-}
